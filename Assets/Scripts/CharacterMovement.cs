@@ -25,6 +25,7 @@ public class CharacterMovement : MonoBehaviour
     {
         _horizMove = speed * Input.GetAxis("Horizontal");
 
+        // Keeps player from sliding down slopes.
         _body2d.gravityScale = (isGrounded && Mathf.Approximately(_horizMove, 0)) ? 0 : gravity;
 
         // Movement left and right
@@ -49,6 +50,8 @@ public class CharacterMovement : MonoBehaviour
 
 
     }
+
+    // Change to Raycast for isGrounded testing.
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("floor"))

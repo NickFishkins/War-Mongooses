@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyChase : MonoBehaviour
+public class EnemyAI : MonoBehaviour
 {
     public float ChaseSpeed = 1f;
     public Transform target;
     public float withinRange;
+    public float tooClose;
 
-    public void Update()
+    void Chase()
     {
         //Gets the distance between the player and enemy
         float dist = Vector2.Distance(target.position, transform.position);
