@@ -13,6 +13,7 @@ public class CharacterMovement : MonoBehaviour
     public float sprintSpeed = 7f;
 
     public float jumpForce = 1f;
+    public float gravity = 5f;
 
     void Start()
     {
@@ -24,7 +25,7 @@ public class CharacterMovement : MonoBehaviour
     {
         _horizMove = speed * Input.GetAxis("Horizontal");
 
-        _body2d.gravityScale = (isGrounded && Mathf.Approximately(_horizMove, 0)) ? 0 : 1;
+        _body2d.gravityScale = (isGrounded && Mathf.Approximately(_horizMove, 0)) ? 0 : gravity;
 
         // Movement left and right
         transform.Translate(new Vector2(_horizMove, 0) * Time.deltaTime);
