@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dd44b3448d78b84a87f40cbd182cdc6, type: 3}
-  m_Name: AddMaxHealthItem
+  m_Script: {fileID: 11500000, guid: 56935b64b25d4884aabf14a14cb653cb, type: 3}
+  m_Name: Add_3_Health
   m_EditorClassIdentifier: 
+  healthAdded: 3

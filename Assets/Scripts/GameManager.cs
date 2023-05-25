@@ -8,8 +8,11 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     public int playerHealth;
-
     public int maxHealth;
+
+    public List<GameObject> items = new List<GameObject>();
+    // Make the line above an array with 3 slots!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    public int itemEquipped;
 
     // Awake is the first method callled, even before start
     private void Awake()
