@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class ItemScript : MonoBehaviour
 {
-    [SerializeField] private AddHealthSO healthSO;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             Destroy(gameObject);
-            healthSO.WhenCollected();
+            // Run method from itemSO that puts it in inventory.
         }
     }
 }

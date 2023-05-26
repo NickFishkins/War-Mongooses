@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // The getter and setter makes it so other things can get info from it but cant change anything about it.
     public static GameManager Instance { get; private set; }
 
     public int playerHealth;
     public int maxHealth;
 
     public List<GameObject> items = new List<GameObject>();
-    // Make the line above an array with 3 slots!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     public int itemEquipped;
 
     // Awake is the first method callled, even before start

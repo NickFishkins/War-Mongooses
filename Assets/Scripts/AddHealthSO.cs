@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "CreateAddHealthItem", menuName = "New Add Health Item")]
+[CreateAssetMenu(fileName = "CreateAddHealth", menuName = "New Add Health")]
 
 public class AddHealthSO : ScriptableObject
 {
@@ -10,6 +10,6 @@ public class AddHealthSO : ScriptableObject
 
     public void WhenCollected()
     {
-        // Do something to put it in the inventory
+        GameManager.Instance.playerHealth += healthAdded;
     }
 }

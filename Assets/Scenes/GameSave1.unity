@@ -785,6 +785,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: 0
   maxHealth: 0
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  itemEquipped: 0
 --- !u!4 &954556923
 Transform:
   m_ObjectHideFlags: 0
