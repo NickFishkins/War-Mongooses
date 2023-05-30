@@ -192,6 +192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
 --- !u!1 &446070412
@@ -205,7 +209,7 @@ GameObject:
   - component: {fileID: 446070415}
   - component: {fileID: 446070414}
   - component: {fileID: 446070413}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +363,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -463,6 +467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
 --- !u!1001 &608618170
@@ -523,6 +531,10 @@ PrefabInstance:
     - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
       propertyPath: m_Name
       value: Pin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
@@ -605,12 +617,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 968bd262c70b4da48bf7e67d0660bdec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isGrounded: 0
+  isGrounded: 1
   speed: 0
-  walkSpeed: 4
-  sprintSpeed: 7
-  jumpForce: 1
-  gravity: 5
+  walkSpeed: 7
+  sprintSpeed: 10
+  jumpForce: 5
+  gravity: 10
+  raycastOffset: 0.2
 --- !u!212 &710547982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -753,6 +766,10 @@ PrefabInstance:
     - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
       propertyPath: m_Name
       value: Pin (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
@@ -934,6 +951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
 --- !u!1 &1445689955 stripped
@@ -1005,6 +1026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin
       objectReference: {fileID: 0}
+    - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
 --- !u!1001 &1767220231
@@ -1066,6 +1091,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
 --- !u!1 &1838945414 stripped
@@ -1115,7 +1144,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124842781}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d39e0cbd9117454d8104aab8e44de40, type: 3}
   m_Name: 
