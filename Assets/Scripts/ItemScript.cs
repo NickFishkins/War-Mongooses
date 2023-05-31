@@ -5,6 +5,7 @@ using UnityEngine;
 public class ItemScript : MonoBehaviour
 {
     private Collider2D _collider;
+    public Sprite icon;
 
     private void Start()
     {
