@@ -15,7 +15,7 @@ public class UiItem : MonoBehaviour
     }
 
     
-    void UpdateItems(ItemScript syringe)
+    public void UpdateItems(ItemScript syringe)
     {
         this.syringe = syringe;
         if(this.syringe = null)
