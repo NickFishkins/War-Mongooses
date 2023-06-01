@@ -10,6 +10,12 @@ public class StartCustcene : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             CameraAnimator.SetBool("cutscene1", true);
+            Invoke(nameof(StopCutscene), 3f);
         }
+    }
+
+    void StopCutscene()
+    {
+        CameraAnimator.SetBool("cutscene1", false);
     }
 }
