@@ -6,6 +6,7 @@ public class ItemScript : MonoBehaviour
 {
     private Collider2D _collider;
     public Sprite icon;
+    public InventoryManager invManager;
 
     private void Start()
     {
@@ -16,8 +17,9 @@ public class ItemScript : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             gameObject.SetActive(false);
-            GameManager.Instance.items.Add(gameObject);
+            //GameManager.Instance.items.Add(gameObject);
             _collider.enabled = false;
+           //invManager.AddItem(gameObject);
         }
     }
 }

@@ -24,6 +24,8 @@ public class InventoryManager : MonoBehaviour
             uiSyringe.Add(slotInstance.GetComponentInChildren<UiItem>());
         }
     }
+
+
     public void RefreshInventory(int slot, ItemScript item)
     {
         uiSyringe[slot].UpdateItems(item);
@@ -36,6 +38,7 @@ public class InventoryManager : MonoBehaviour
     {
         RefreshInventory(uiSyringe.FindIndex(i => i.syringe == item), null);
     }
+
 
     // Function Stuff
     void Update()
@@ -55,7 +58,7 @@ public class InventoryManager : MonoBehaviour
             Switch(2);
         }else if (Input.GetKeyDown(KeyCode.F))
         {
-            //Destroy(heldItem);
+            //RemoveItem();
         }
     }
 
