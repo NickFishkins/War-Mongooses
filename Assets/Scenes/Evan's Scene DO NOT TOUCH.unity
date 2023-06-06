@@ -320,7 +320,6 @@ GameObject:
   - component: {fileID: 347726937}
   - component: {fileID: 347726936}
   - component: {fileID: 347726935}
-  - component: {fileID: 347726934}
   m_Layer: 0
   m_Name: Item2
   m_TagString: Untagged
@@ -328,20 +327,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &347726934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347726933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcca7826d67a2f8418826720a4c05412, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  invManager: {fileID: 0}
 --- !u!58 &347726935
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -547,7 +532,6 @@ GameObject:
   - component: {fileID: 518714415}
   - component: {fileID: 518714414}
   - component: {fileID: 518714413}
-  - component: {fileID: 518714412}
   m_Layer: 0
   m_Name: Item1
   m_TagString: Untagged
@@ -555,20 +539,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &518714412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518714411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcca7826d67a2f8418826720a4c05412, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  invManager: {fileID: 0}
 --- !u!58 &518714413
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1330,13 +1300,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 710547977}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffc7db7a655b71842a088c95e036c32c, type: 3}
+  m_Script: {fileID: 11500000, guid: baf539c63d1c3dc4288d79b70cf4e4b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiSyringe: []
-  slotsPrefab: {fileID: 0}
-  backPanel: {fileID: 0}
-  numOfSlots: 3
 --- !u!1 &716231948 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8596267781433296921, guid: f0492bb3dffd05b4197c887749dab665, type: 3}
@@ -2252,7 +2218,6 @@ GameObject:
   - component: {fileID: 2092920440}
   - component: {fileID: 2092920439}
   - component: {fileID: 2092920438}
-  - component: {fileID: 2092920437}
   m_Layer: 0
   m_Name: Item3
   m_TagString: Untagged
@@ -2260,20 +2225,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2092920437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092920436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcca7826d67a2f8418826720a4c05412, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  invManager: {fileID: 0}
 --- !u!58 &2092920438
 CircleCollider2D:
   m_ObjectHideFlags: 0
