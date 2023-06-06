@@ -1,0 +1,1520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1102 &-8423501890531913390
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera5
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 4109882532320033172}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-8288396562442338196
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera10
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -1490252197275737657}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-8110475579508714307
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 7670427441725077325}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-6550624917679500368
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -950509523626188997}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-5660011166452920279
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 7955815668488340551}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1102 &-5494548932185538975
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera15
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-4899180173358006182
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -5494548932185538975}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-4660848114555828953
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -983574534325817905}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-3865827915366212583
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8750225120451183474}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1102 &-3298161719871579799
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera12
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 5372207401579886735}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-2650342032100886568
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera13
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -2218531788367454762}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-2218531788367454762
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 5355040966838977476}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-2024451002345315457
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -3298161719871579799}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-1490252197275737657
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 3825879855726512253}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1102 &-983574534325817905
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera8
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 3365612068315380194}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-950509523626188997
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera4
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 1410724716266903717}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!91 &9100000
+AnimatorController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Beginning Cutscene
+  serializedVersion: 5
+  m_AnimatorParameters:
+  - m_Name: Camera1
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera2
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera3
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera4
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera5
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera6
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera7
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera8
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera9
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera10
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera11
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera12
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera13
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera14
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Camera15
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  m_AnimatorLayers:
+  - serializedVersion: 5
+    m_Name: Base Layer
+    m_StateMachine: {fileID: 7767698418181236003}
+    m_Mask: {fileID: 0}
+    m_Motions: []
+    m_Behaviours: []
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_Controller: {fileID: 9100000}
+--- !u!1101 &343699010329808787
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -8288396562442338196}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1102 &1092729959132135057
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera9
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 343699010329808787}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &1410724716266903717
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -8423501890531913390}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &3365612068315380194
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 1092729959132135057}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1102 &3825879855726512253
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera11
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -2024451002345315457}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &4109882532320033172
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 4950926059869299180}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1102 &4950926059869299180
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera6
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -8110475579508714307}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &5355040966838977476
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera14
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -4899180173358006182}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &5372207401579886735
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera1
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera2
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera3
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera4
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera5
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera6
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera7
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera8
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera9
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera10
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera11
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera12
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Camera13
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera14
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Camera15
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -2650342032100886568}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1102 &7252318870413831401
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera1
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -3865827915366212583}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &7670427441725077325
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera7
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -4660848114555828953}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1107 &7767698418181236003
+AnimatorStateMachine:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Beginning Cutscene
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: 7252318870413831401}
+    m_Position: {x: 220, y: 110, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8750225120451183474}
+    m_Position: {x: 460, y: -160, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7955815668488340551}
+    m_Position: {x: 530, y: -100, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -950509523626188997}
+    m_Position: {x: 530, y: -40, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -8423501890531913390}
+    m_Position: {x: 530, y: 20, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4950926059869299180}
+    m_Position: {x: 530, y: 80, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7670427441725077325}
+    m_Position: {x: 530, y: 140, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -983574534325817905}
+    m_Position: {x: 530, y: 200, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1092729959132135057}
+    m_Position: {x: 530, y: 260, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -8288396562442338196}
+    m_Position: {x: 530, y: 320, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 3825879855726512253}
+    m_Position: {x: 530, y: 380, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -3298161719871579799}
+    m_Position: {x: 530, y: 440, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -2650342032100886568}
+    m_Position: {x: 530, y: 500, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5355040966838977476}
+    m_Position: {x: 530, y: 560, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5494548932185538975}
+    m_Position: {x: 530, y: 620, z: 0}
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: -120, y: 30, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: -90, y: 290, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 7252318870413831401}
+--- !u!1102 &7955815668488340551
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera3
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -6550624917679500368}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &8750225120451183474
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Camera2
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -5660011166452920279}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 

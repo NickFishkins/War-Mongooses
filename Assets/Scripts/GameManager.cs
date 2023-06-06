@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public int playerHealth;
     public int maxHealth;
 
-    public List<GameObject> items = new List<GameObject>();
+    public GameObject[] items;
     public int itemEquipped;
 
     // Awake is the first method callled, even before start
