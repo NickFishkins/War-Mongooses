@@ -16,12 +16,16 @@ public class Cape : MonoBehaviour
     public float randomAmmount = 0; // Random acceleration ammount
     private Mesh mesh; // Mesh
     private MeshFilter meshFilter; // Mesh filter
+    public GameObject player;
+
+    private Vector2 startPos;
     void Start() {
+        startPos = transform.position;
         // ***** Make lists *****
         int i = 0;
         for (int x = 0; x < width; x++) {
             for (int y = 0; y < length; y++) {
-                accel.Add(new Vector2(0, -0.1f));
+                accel.Add(new Vector2(0, 0));
                 Vector2 vec = new Vector2(0 + x * radius, 0 + y * radius);
                 pos.Add(vec);
                 prevPos.Add(vec);
@@ -78,6 +82,7 @@ public class Cape : MonoBehaviour
                 for (int iii = 0; iii < width; iii++) { // Adjust pins
                     pos[(0 + iii * length)] = pins[iii].transform.position;
                 }
+                
                 if (pos[i].y < floor) { // Floor collisions
                     pos[i] = new Vector2(pos[i].x, pos[i].y + Mathf.Abs(floor - pos[i].y));
                 }
@@ -122,7 +127,7 @@ public class Cape : MonoBehaviour
 
         // ***** Convert pos vector2's into vector3's and add them to vertices array
         for (int i = 0; i < length * width; i++) {
-            Vector3 vec = new Vector3(pos[i].x, pos[i].y, 0);
+            Vector3 vec = new Vector3(startPos.x - pos[i].x + player.transform.position.x, startPos.x - pos[i].y + player.transform.position.y, 0);
             verts[i] = vec;
         }
         // ***** End *****
