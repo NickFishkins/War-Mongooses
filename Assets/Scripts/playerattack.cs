@@ -11,7 +11,7 @@ public class playerattack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("E"))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             enemykiller = Instantiate(attackhitbox) as GameObject;
             enemykiller.transform.position = player.transform.position;
