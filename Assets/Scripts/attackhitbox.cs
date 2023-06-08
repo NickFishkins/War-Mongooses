@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class attackhitbox : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //this script will be on the enemy
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(other.gameObject.CompareTag("attack hitbox"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
