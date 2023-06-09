@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
         if(GameManager.Instance.playerHealth <= 0)
         {
-            // Change To GameOver Screen
+            SceneManager.LoadScene(3);
         }
     }
 }

@@ -136,9 +136,21 @@ public class EnemyAI : MonoBehaviour
         usingSpeed = slowSpeed;
         loc = player.transform.position;
     }
+
+    /* CRASHES GAME RNNNNNN
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+       while (collision.gameObject.CompareTag("Player"))
+        {
+            GameManager.Instance.playerHealth -= 1;
+        }
+    }
+    */
     IEnumerator Timer(float time)
     {
         yield return new WaitForSeconds(time);
         wait = false;
     }
+
+
 }
