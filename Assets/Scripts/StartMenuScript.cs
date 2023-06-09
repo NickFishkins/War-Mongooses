@@ -13,4 +13,10 @@ public class StartMenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+    // For GameOver Menu
+    public void ResetGame()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
