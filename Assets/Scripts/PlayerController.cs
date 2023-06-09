@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class PlayerController : MonoBehaviour
         if(GameManager.Instance.playerHealth >= GameManager.Instance.maxHealth)
         {
             GameManager.Instance.playerHealth = GameManager.Instance.maxHealth;
+        }
+
+        if(GameManager.Instance.playerHealth <= 0)
+        {
+            // Change To GameOver Screen
         }
     }
 }

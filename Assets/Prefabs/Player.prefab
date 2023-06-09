@@ -627,7 +627,8 @@ GameObject:
   - component: {fileID: 4102437945752440533}
   - component: {fileID: 4102437945752440532}
   - component: {fileID: 4102437945752440531}
-  - component: {fileID: 4102437945752440530}
+  - component: {fileID: 3517091657061099859}
+  - component: {fileID: 8003438998722610407}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -766,7 +767,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
---- !u!114 &4102437945752440530
+--- !u!114 &3517091657061099859
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -775,12 +776,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 4102437945752440529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 259793bf430b1be4d84dfa20f431531d, type: 3}
+  m_Script: {fileID: 11500000, guid: 63db5583b5cfaf549abba4656a4f47ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthType: 1
-  accessibleObject: {fileID: 0}
-  health: 10
+--- !u!114 &8003438998722610407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102437945752440529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330ae47fa34eff54fba34518b7cbab70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackhitbox: {fileID: 5705278887491423937, guid: 1126804ecb566954bab9b439e15d0492, type: 3}
+  player: {fileID: 4102437945752440529}
 --- !u!1 &4102437945795350147
 GameObject:
   m_ObjectHideFlags: 0
