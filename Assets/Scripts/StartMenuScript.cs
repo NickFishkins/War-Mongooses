@@ -19,4 +19,9 @@ public class StartMenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void imaKms()
+    {
+        SceneManager.LoadScene(5);
+    }
 }

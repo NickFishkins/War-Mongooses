@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: f332a863b24c5ef49a4b285faa92676f
@@ -20,7 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 687bdb6a56cd4864fb1c790bc723a128
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/secondlevel.unity
     guid: 18e48cdd4d677b64f90f0f341cb82b10
+  - enabled: 1
+    path: Assets/Scenes/thirdlevel.unity
+    guid: 5ba13c6b08871d44399b314e446ad952
+  - enabled: 1
+    path: Assets/Scenes/Joe biden.unity
+    guid: 2910a43413d392a45a832dc2d95c4fec
   m_configObjects: {}

@@ -11,5 +11,10 @@ public class NewBehaviourScript : MonoBehaviour
         {
             Physics2D.IgnoreCollision(Player.GetComponent<CapsuleCollider2D>(), GetComponent<BoxCollider2D>());
         }
+        Invoke(nameof(kurt), 3f);
+    }
+    void kurt()
+    {
+        Destroy(gameObject);
     }
 }
