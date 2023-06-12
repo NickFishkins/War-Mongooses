@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8568874077414218184}
   - component: {fileID: 8331459104370594077}
   - component: {fileID: 8715236896464483975}
+  - component: {fileID: 5770494579583236290}
   m_Layer: 0
   m_Name: attack hitbox
   m_TagString: attack hitbox
@@ -111,3 +112,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5770494579583236290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5705278887491423937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6bb36083d6cbbf47ab3dc614f6321ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 4102437945752440529, guid: 14a3ec7772b6dcc40ad4985907cb36b7, type: 3}
