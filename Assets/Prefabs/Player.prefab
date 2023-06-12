@@ -725,10 +725,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrounded: 1
   speed: 0
-  walkSpeed: 7
-  sprintSpeed: 10
-  jumpForce: 5
-  gravity: 10
+  walkSpeed: 10
+  sprintSpeed: 15
+  jumpForce: 15
+  gravity: 5
   raycastOffset: 0.2
 --- !u!50 &4102437945752440532
 Rigidbody2D:
