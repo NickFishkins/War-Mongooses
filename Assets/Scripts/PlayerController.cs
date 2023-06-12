@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         // Starts by setting the players health to the cap.
-        GameManager.Instance.maxHealth = 10;
+        GameManager.Instance.maxHealth = 750;
         GameManager.Instance.playerHealth = GameManager.Instance.maxHealth;
     }
 
