@@ -16,7 +16,8 @@ public class CharacterMovement : MonoBehaviour
     public float gravity = 5f;
 
     public float raycastOffset = 0.2f;
-
+    //for the physics.ignorcollision
+    [SerializeField] GameObject attackhitbox;
     void Start() {
         isGrounded = true;
         _body2d = GetComponent<Rigidbody2D>();
@@ -53,6 +54,7 @@ public class CharacterMovement : MonoBehaviour
             isGrounded = false;
         }
         Debug.DrawRay(transform.position, Vector2.down, Color.red);
-
+        //physics.ignorecollision for the attack
+        Physics2D.IgnoreCollision(attackhitbox.GetComponent<BoxCollider2D>(), GetComponent<CapsuleCollider2D>());
     }
 }
