@@ -46,7 +46,7 @@ public class CharacterMovement : MonoBehaviour
 
         // Raycast for isGrounded
         LayerMask mask = LayerMask.GetMask("Raycast");
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, transform.localScale.y + raycastOffset, mask);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 5 + raycastOffset, mask);
         if (hit.collider != null) {
             isGrounded = true;
         } else {
