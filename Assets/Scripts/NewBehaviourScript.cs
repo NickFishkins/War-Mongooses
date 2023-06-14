@@ -5,10 +5,6 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     public GameObject Player;
-    private void Start()
-    {
-        Physics2D.IgnoreCollision(Player.GetComponent<CapsuleCollider2D>(), GetComponent<BoxCollider2D>());
-    }
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -20,14 +16,11 @@ public class NewBehaviourScript : MonoBehaviour
         }
         Invoke(nameof(kurt), 1f);
     }
-    private void Update()
-    {
-        Physics2D.IgnoreCollision(Player.GetComponent<CapsuleCollider2D>(), GetComponent<BoxCollider2D>());
-    }
     void kurt()
     {
         //this destroys the attack hitbox (works just fine)
         Destroy(gameObject);
     }
     //tried to get a void awake function in the physics.ignore collision, did not work
+    //tried to put the physics.ignorecollision on player, did not work. Maybe try putting the physics.ignorecollision on the player?
 }
